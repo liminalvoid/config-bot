@@ -1,0 +1,17 @@
+{
+	"name": "FastAPI Backend",
+	"dockerComposeFile": ["../../docker-compose.devcontainer.yml"],
+	"service": "backend",
+	"shutdownAction": "none",
+	"workspaceFolder": "/workspace/backend",
+	"forwardPorts": [8000, 8000],
+	"customizations": {
+		// Configure properties specific to VS Code.
+		"vscode": {
+			"extensions": [
+				"ms-python.black-formatter",
+				"ms-python.vscode-pylance"
+			]
+		}
+	}
+}

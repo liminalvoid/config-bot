@@ -1,0 +1,16 @@
+{
+	"name": "Telegram Bot",
+	"dockerComposeFile": ["../../docker-compose.devcontainer.yml"],
+	"service": "tg_bot",
+	"shutdownAction": "none",
+	"workspaceFolder": "/workspace/tg_bot",
+	"customizations": {
+		// Configure properties specific to VS Code.
+		"vscode": {
+			"extensions": [
+				"ms-python.black-formatter",
+				"ms-python.vscode-pylance"
+			]
+		}
+	}
+}
